@@ -115,9 +115,10 @@ if st.button("Predict"):
     input_df = build_input(bechdel, genres, rating)
     prediction = model.predict(input_df)[0]
     if prediction_type == "Awards Won":
-        prediction = math.exp(prediction)
+        prediction = math.exp(1 + prediction)
     st.subheader("Prediction Result")
     st.metric(
         label=prediction_type,
         value=f"{prediction:.2f}"
     )
+
