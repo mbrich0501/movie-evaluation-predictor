@@ -1,2 +1,5 @@
-See: https://scalar.usc.edu/works/causal-forecast-of-film-evaluation-with-refined-bechdel-and-pre-productive-semiotic-indicators/index
-And: https://movie-evaluation-predictor-xhvyeyqjmdloas8t3adwuz.streamlit.app/ 
+See the webpage explaining the data, and findings used for my Master's capstone: https://scalar.usc.edu/works/causal-forecast-of-film-evaluation-with-refined-bechdel-and-pre-productive-semiotic-indicators/index
+
+
+Here is the link to the streamlit application that allows the user to predict a movie's performance (IMDb rating, commercial success, and awards won) based 
+on Ex-Ante production features: https://movie-evaluation-predictor-xhvyeyqjmdloas8t3adwuz.streamlit.app/ 
